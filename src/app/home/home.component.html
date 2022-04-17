@@ -1,0 +1,20 @@
+<div class="fluid-container">
+    <div class="navbar bg-primary shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            <i style="font-size: 40px;" class="fas fa-shipping-fast">&nbsp;
+                
+            </i>
+                <strong style="font-size: 30px;">Groceries</strong>
+            <div class="nav-item d-flex flex-row">
+                <a class="nav-link active" aria-current="page" href="/home">Home</a>
+                <a class="nav-link" href="/products">Products</a>
+                <a class="nav-link" href="/login">Sign In</a>
+                <a class="nav-link" href="/register">Sign Up</a>
+            </div>
+        </div>
+        <button routerLink="cart" class="btn-btn-primary">
+            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+    </div>
+</div>
